@@ -1,7 +1,15 @@
 function DetailViewWindow() {
 	var self = Ti.UI.createWindow({
 		tabBarHidden: true,
-		backgroundColor: '#FF0000'
+		barImage: 'images/bar.png',
+		backgroundImage: 'images/body.png',
+		titleImage: 'images/title.png',
+		barColor: '#bd83a1',
+	});
+	
+	
+	self.addEventListener('focus', function(e) {
+		
 	});
 	return self;
 }

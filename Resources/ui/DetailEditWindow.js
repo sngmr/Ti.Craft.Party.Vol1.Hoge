@@ -3,6 +3,10 @@ var tableView;
 function DetailEditWindow(id) {
 	var self = Ti.UI.createWindow({
 		tabBarHidden: true,
+		barImage: 'images/bar.png',
+		backgroundImage: 'images/body.png',
+		barColor: '#bd83a1',
+		title: 'メイン'
 	});
 	
 	var cameraButton = Titanium.UI.createButton({

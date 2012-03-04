@@ -8,7 +8,7 @@ function AppTabGroup() {
 	
 	var mainWindow = new MainWindow();
 	var mainTab = Ti.UI.createTab({
-		title: 'app',
+		title: '',
 		window: mainWindow,
 	});
 	self.addTab(mainTab);
